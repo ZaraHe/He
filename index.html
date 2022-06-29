@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="./reset.css">
+<link rel="stylesheet" href="./nav.css">
+<link rel="stylesheet" href="./rside.css">
+<link rel="stylesheet" href="./iside.css">
+<style type="text/css">
+	body {
+		background-color: #efefef;
+	}
+	nav {
+		height: 60px;
+		background: black;
+	}
+	#main {
+		width: 1100px;
+		margin: 0 auto;
+	}
+	#iside {
+		width: 805px;
+		
+		float: left;
+	}
+	#rside {
+		width: 275px;
+		height: 500px;
+		float: right;
+	}
+	 #main:after {    
+	 	content: '';    
+	 	display: block;   
+	   height: 0px;    
+	   width: 0px;    
+	   clear: both;  
+	}
+	header{
+		height: 150px;
+		background: white;
+	} 
+	header h1 {
+		font: 50px/60px '微软雅黑','黑体';
+	}
+	header p {
+		color: blueviolet;
+		font: 15px/25px '微软雅黑','黑体'
+	}
+	header div{
+		height: 75px;
+		width: 1100px;
+		margin: 0px auto;
+		padding: 40px;
+	}
+	footer {
+		height: 65px;
+		background:#222222;
+		font: 17px/65px '微软雅黑','黑体';
+		color: white;
+		text-align: center;
+	}
+	
+</style>
+</head>
+
+<body>
+	<header>
+		<div>
+		<h1>我是老六</h1>
+		<p>6</p>
+	</div>
+	</header>
+    <nav>
+       <ul>
+    	<li><a href="#">全部</a></li>
+		<li><a href="#">1</a></li>
+		<li><a href="#">2</a></li>
+		<li><a href="#">3</a></li>
+	   </ul>
+	 </nav>	
+	<div id="main">
+		<div id="iside">
+			<article>
+				<h2> <a href="#">嗨害嗨</a></h2>
+				<div>
+					<span>
+						<time>2022.06.09</time>
+					</span>
+					by <span><a href="#">老六</a></span>
+					<span>
+						<a href="#">NB</a>
+						<a href="#">6</a>
+					</span>
+					<span><a href="#" id="comment">999+条评论</a></span>
+				</div>
+				<img src="https://tse1-mm.cn.bing.net/th/id/OIP-C.1gpk1moG1RMriMrlAwrX_QHaEo?pid=ImgDet&rs=1" alt="">
+				<p>
+					老铁们啊，只有你们想不到的，没有老八做不到的。<br>
+
+					还是那句话，今天老八，挑战一把吃粑粑。<br>
+
+					兄弟们，奥利给，干它！呕~呕~呕。<br>
+				</p>
+				<iframe src="https://player.bilibili.com/player.html?aid=967912250&bvid=BV1dp4y1X7CV&cid=185479442&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" height="500" width="700"> </iframe>
+			</article>
+				</div>
+	    <div id="rside">
+		<aside>
+		    <form action="#">
+				<input type="search">
+            </form>
+		</aside>
+		<aside>
+			<h4>分类目录</h4>     
+			<ul>        
+				<li><a href="">分类目录</a></li>       
+				<li><a href="">分类目录</a></li>        
+				<li><a href="">分类目录</a></li>
+			</ul>
+		</aside>
+		</div>
+
+	</div>
+    <footer>Copyright &copy; 2022·6</footer>
+</body>
+</html>
